@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gowun+Batang&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@100;400;700&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(20,35,50);
+  font-family: "Inter";
+
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+    display: block;
+    /*border: red solid 1px; */
+}
+
+div {
+ 
+  /*border: blue solid 1px; */
+}
+
+#contexto{
+ float: left;
+  margin: 0px 30px 0px 30px;
+  font-size: 40px;
+  color: white;
+  font-size: 1em;
+  width: 25%;
+  font-weight: 500;
+
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+     margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Gowun Batang", serif;
+
+}
+
+.cont_slider{
+/*width: 80%;*/
+padding: 10px;
+
+}
+
+input{position: 100px;
+  font-family: "Gowun Batang", serif;
+
+
+}
+
+label {
+
+ font-family: "Gowun Batang", serif;
+ color: white;
+}
+
+
+a {color: cyan}
+
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.checkbox-wrapper-17{
+margin-top: 100px;
+
+}
+
+  .checkbox-wrapper-17 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .checkbox-wrapper-17 label {
+    --size: 50px;
+
+    cursor: pointer;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+
+  .checkbox-wrapper-17 label:after {
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 2.5%;
+    width: calc(50% - 5%);
+    height: calc(100% - 11%);
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+  .checkbox-wrapper-17 input:checked + label {
+    background: darkcyan;
+  }
+
+  .checkbox-wrapper-17 input:checked + label:after {
+    left: calc(100% - 2.5%);
+    transform: translateX(-100%);
+  }
+
+  .checkbox-wrapper-17 label:active:after {
+    width: 55%;
+  }
+
+
+
+  .checkbox-wrapper-18{
+margin-top: 80px;
+
+}
+
+  .checkbox-wrapper-18 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .checkbox-wrapper-18 label {
+    --size: 50px;
+
+    cursor: pointer;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+
+  .checkbox-wrapper-18 label:after {
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 2.5%;
+    width: calc(50% - 5%);
+    height: calc(100% - 11%);
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+  .checkbox-wrapper-18 input:checked + label {
+    background: #darkcyan;
+  }
+
+  .checkbox-wrapper-18 input:checked + label:after {
+    left: calc(100% - 2.5%);
+    transform: translateX(-100%);
+  }
+
+  .checkbox-wrapper-18 label:active:after {
+    width: 55%;
+  }
+
+
+@media (width < 1200px) {
+
+  input {visibility: hidden;}
+  .checkbox-wrapper-18{visibility: hidden;}
+  label{visibility: hidden;}
+
+  #contexto{
+ float: left;
+  margin: 0px 30px 0px 30px;
+  font-size: 40px;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  font-weight: 500;
+
+
+}
+span {visibility: hidden;}
+
+
+}
+
+
+
+}
